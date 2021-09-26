@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Nunito&display=swap');
+body{
+     padding: 1rem; 
+    background-color: #dce3fa;
+    display:flex;
+width: 100%;
+    flex-direction: column;
+     justify-content: left;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+color: black;
+border-radius 1rem;
+font-size: 1.5rem ;
+color: orange;
+}
+p{
+font-size: 0.9rem;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 2px solid ;
+    box-shadow:3px 3px 4px 3px orange;
+    border-radius: 40px;
+    width: 40vw;
+    height: 80vh;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+#label{
+font-style: bold;
+color:black;
+font-size: 1rem;
+}
+
+input{
+    margin: 1rem;
+    padding: 1rem;
+    width:26vh;
+    border-radius: 4rem;
+    
+}
+
+#btn{
+    margin: auto;
+    background-color: #E7E9E7;
+border-radius: 4rem;
+width:14vh;
+ border-color: orange;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 4px 4px 5px orange;
+}
+
+#btn:hover{
+    cursor: pointer;
+    color: black;
+  background-color: orange;
+   box-shadow: 4px 4px 5px black;
+}
+
+#output{
+    padding: 4rem;
+   color: black;
+   font-style: italic;
+   font-size: 1rem;
+   font-weight: bold;
+
+}
